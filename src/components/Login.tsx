@@ -83,9 +83,9 @@ const Login = () => {
 
 export default Login;
 
-interface Props {
+type Props = {
   className: string;
-}
+};
 
 function MountainIcon(props: Props) {
   return (

@@ -99,9 +99,9 @@ const Signup = () => {
 
 export default Signup;
 
-interface Props {
+type Props = {
   className: string;
-}
+};
 
 function MountainIcon(props: Props) {
   return (
